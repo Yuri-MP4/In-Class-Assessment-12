@@ -17,4 +17,19 @@ nav {
   justify-content: flex-end;
   padding: 0 50px;
   overflow: hidden;
+  background-color: black;
 }
+
+nav a {
+  color: white;
+  padding-left: 0.75rem;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+nav a:hover {
+  color: lawngreen;
+  text-decoration: underline;
+}
+
