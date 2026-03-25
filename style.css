@@ -110,18 +110,19 @@ h2{
   position: relative;
   top: -45px;
   height: 15%;
+  padding-left: 10px;
 }
 
 .first {
-  background-image: url("https://images.pexels.com/photos/25490659/pexels-photo-25490659.jpeg");
+  background-image: url("https://www.wildbirdscoop.com/wp-content/uploads/2024/04/geese-migrate-at-night.jpeg");
 }
 
 .second {
-  background-image: url("https://images.pexels.com/photos/25490659/pexels-photo-25490659.jpeg");
+  background-image: url("https://cdn.mos.cms.futurecdn.net/9VEDaeCGhABihsyrFcBwqb.jpg");
 }
 
 .third {
-  background-image: url("https://images.pexels.com/photos/25490659/pexels-photo-25490659.jpeg");
+  background-image: url("https://www.birds.cornell.edu/hubbardbrook/wp-content/uploads/2019/12/CanadaWarbler_BertFilemyr_-ML100200111.jpg");
 }
 
 footer {
