@@ -102,6 +102,9 @@ h2{
   height: 255px;
 }
 
+.services h3 {
+  text-align: right;
+}
 
  .box p {
   font-size: 2.3rem;
