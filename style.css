@@ -46,6 +46,7 @@ main {
 h1{
  text-transform: uppercase;
  font-size: 3.0rem;
+  padding-bottom: 5px;
 }
 
 h2{
@@ -58,6 +59,7 @@ h2{
   display: flex;
   font-size: 24px;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .member, .image {
@@ -86,4 +88,105 @@ h2{
 .four {
   background-image: url("https://github.com/Yuri-MP4/In-Class-Assessment-12/blob/main/assets/Pink%20HummingBird%20Portrait.png?raw=true");
 }
+
+.work {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  width: 35%;
+}
+
+.image {
+  height: 255px;
+}
+
+
+ .box p {
+  font-size: 2.3rem;
+  font-style: italic;
+  color: white;
+  position: relative;
+  top: -45px;
+  height: 15%;
+}
+
+.first {
+  background-image: url("https://images.pexels.com/photos/25490659/pexels-photo-25490659.jpeg");
+}
+
+.second {
+  background-image: url("https://images.pexels.com/photos/25490659/pexels-photo-25490659.jpeg");
+}
+
+.third {
+  background-image: url("https://images.pexels.com/photos/25490659/pexels-photo-25490659.jpeg");
+}
+
+footer {
+  width: 100%;
+  height: 275px;
+  color: white;
+  background-color: black;
+  margin-top: 70px;
+  padding-top: 50px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  height: 50px;
+}
+
+footer a:hover {
+  color: lawngreen;
+  text-decoration: underline;
+}
+
+.footer-content {
+  width: 75vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer-links {
+  width: 250px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-copyright {
+  width: 25%;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.footer-button {
+  font-size: 0.8rem;
+  padding: 1em 2em;
+  border-radius: 1.5rem;
+  color: black;
+  background: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.trademark {
+  font-size: 0.85rem;
+  text-align: right;
+  color: white;
+  font-style: italic;
+}
+
+
 
