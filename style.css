@@ -1,3 +1,24 @@
+
+.oswald-<uniquifier> {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.syncopate-regular {
+  font-family: "Syncopate", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.syncopate-bold {
+  font-family: "Syncopate", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
 *{
   margin: 0;
   padding: 0;
@@ -7,6 +28,7 @@
 html{
  width: 100vw;
   font-size: 16px;
+  font-family: "Oswald", sans-serif;
 }
 
 nav {
@@ -47,24 +69,32 @@ h1{
  text-transform: uppercase;
  font-size: 3.2rem;
   padding-bottom: 15px;
+  font-family: "Syncopate", sans-serif;
+  font-weight: 700;
 }
 
 h2{
   font-size: 2.5rem;
+  font-family: "Syncopate", sans-serif;
+  font-weight: 400;
+  color: grey;
 }
 
 h3{
   font-size: 1.8rem;
   padding-bottom: 5px;
+  font-family: "Syncopate", sans-serif;
+  font-weight: 400;
 }
 
 .team {
   height: 500px;
   width: 100%;
   display: flex;
-  font-size: 24px;
+  font-size: 1.7rem;
   text-align: center;
   margin-bottom: 50px;
+  font-weight: 600;
 }
 
 .member, .image {
